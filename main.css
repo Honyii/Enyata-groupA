@@ -1,0 +1,239 @@
+
+body{
+    margin: 0;
+    padding:0;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.landing-page{
+    background-image: url("images/front.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    position: absolute;
+}
+
+.my-form{
+    position: relative;
+    background: rgb(90, 24, 90);
+    width: 350px;
+    height: 350px;
+    z-index: 1;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.my-form h1{
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input[type=text]{
+    width: 80%;
+    height: 5%;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+input[type=password]{
+    width: 80%;
+    height: 5%;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+button{
+    width: 85%;
+    height: 7%;
+    font-size: 15px;
+    border-radius: 10px;
+    background: rgb(252, 164, 2);
+    color: white;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+.form-p{
+    font-size: 18px;
+    color: white;
+}
+.form-p a{
+    font-size: 18px;
+    color:rgb(252, 164, 2);
+    text-decoration: none;
+}
+
+/* .home{
+    background: rgb(133, 48, 48);
+} */
+.my-nav{
+    background: rgb(90, 24, 90);
+    /* display: inline; */
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.home ul{
+    text-align: center;
+   
+}
+.my-nav li{
+    float: left;
+    height: 15%;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 20px;
+   
+    
+}
+ .my-nav li a{
+    align-items: center;
+    margin: 80px;
+    background: orange;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.my-nav li a:hover{
+    background: rgb(238, 164, 26);
+}
+
+.my-nav .right{
+    float: right;
+}
+
+.man-pic{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+}
+.girl{
+    display: float;
+}
+.girl-part{
+    float: left;
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 80px;
+    
+}
+
+.landing{
+    background-repeat: no-repeat;
+    background-size: cover; 
+    float: right;
+    width: 50%;
+    height: 75vh;
+    margin-right: 40px;
+
+
+}
+.girl{
+    display: float;
+}
+
+.my-body h2{
+    color: rgb(90, 24, 90);
+    
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.cam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+  .first-cam{
+  
+    /* background-repeat: no-repeat;
+    background-size: cover; 
+    width: 400px;
+    height: 60vh;
+    
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    left: 50%;
+    margin: 0 auto; */
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 60vh;
+    margin: 20px;
+/* float: left; */  
+}
+
+.off{
+  color: orange;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgba(15, 14, 14, 0.822);
+}
+ h2 .sales{
+     margin-top: 80px;
+     padding: 50px;
+     
+ }
+ 
+ a .first-cam:hover{
+     
+    opacity: 0.5;
+ }
+
+ footer{
+     background-color: rgb(90, 24, 90);
+ }
+ footer ul{
+    /* text-align: center; */
+    display: float;
+    text-align: center;
+    justify-content: center;
+ }
+ footer li{
+     list-style: none;
+     
+     position: relative;
+     display: inline-block;
+     margin:  0 80px;
+     /* text-align: center; */
+ }
+
+ footer li a{
+     color: white;
+     text-decoration: none;
+ }
