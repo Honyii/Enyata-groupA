@@ -6,6 +6,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    
 }
 
 .landing-page{
@@ -237,3 +238,37 @@ button a{
      color: white;
      text-decoration: none;
  }
+
+ .see-more{
+     text-align: center;
+     font-size: 30px;
+ }
+ .see-more a{
+     text-decoration: none;
+     color: orange;
+     background:rgb(90, 24, 90);
+     border-radius: 20px;
+     padding: 5px 20px;
+ }
+
+ .home-page{
+    overflow-x: hidden;
+ }
+
+.product-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cam{
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 60vh;
+    margin: 20px;
+}
+
+.product-image a:hover{
+    box-shadow: 5px 10px 10px rgb(90, 24, 90);
+}
