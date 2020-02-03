@@ -90,7 +90,7 @@ button a{
     background: rgb(133, 48, 48);
 } */
 .my-nav{
-    background: rgb(90, 24, 90);
+    background: rgb(39, 35, 35);
     /* display: inline; */
     width: 100%;
     height: 70px;
@@ -117,7 +117,7 @@ button a{
  .my-nav li a{
     align-items: center;
     margin: 80px;
-    background: orange;
+    /* background: orange; */
     text-decoration: none;
     padding: 5px 15px;
     font-size: 20px;
@@ -172,32 +172,7 @@ button a{
     font-size: 40px;
 }
 
-.cam{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}
-
-  .first-cam{
-  
-    /* background-repeat: no-repeat;
-    background-size: cover; 
-    width: 400px;
-    height: 60vh;
-    
-    margin: 0;
-    padding: 0;
-    margin-left: 20px;
-    left: 50%;
-    margin: 0 auto; */
-    position: relative;
-    display: inline-block;
-    width: 400px;
-    height: 60vh;
-    margin: 20px;
-/* float: left; */  
-}
 
 .off{
   color: orange;
@@ -210,14 +185,11 @@ button a{
      padding: 50px;
      
  }
- 
- a .first-cam:hover{
-     
-    opacity: 0.5;
- }
+
 
  footer{
-     background-color: rgb(90, 24, 90);
+     background-color:rgb(39, 35, 35);
+     
  }
  footer ul{
     /* text-align: center; */
@@ -272,3 +244,4 @@ button a{
 .product-image a:hover{
     box-shadow: 5px 10px 10px rgb(90, 24, 90);
 }
+
