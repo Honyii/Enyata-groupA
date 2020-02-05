@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+    position: absolute;
+}
+
+.button {
+    width: 85%;
+    height: 7%;
+    font-size: 15px;
+    border-radius: 10px;
+    background: rgb(252, 164, 2);
+    color: white;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* .home{
+    background: rgb(133, 48, 48);
+} */
+
+
+/* new navbar */
+
+.navbar {
+    overflow: hidden;
+    background: #00b6a3;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: rgb(238, 164, 26);
+    color: #fff;
+    transition: .5s;
+}
+
+#cartitems {
+    background-color: #ff5b45;
+    color: #fff;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.man-pic {
+    background-image: url('./images/man-pic.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 600px;
+}
+
+.welcome {
+    padding-top: 150px;
+    color: white !important;
+    text-align: left;
+    padding-left: -100px;
+    font-family: 'Noto Serif', serif;
+}
+
+.welcome1 {
+    color: white !important;
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: center;
+    font-family: 'Montserrat', serif;
+    font-size: 18px;
+}
+
+.girl {
+    display: float;
+}
+
+.girl-part {
+    float: left;
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 25px;
+    font-size: 25px;
+    line-height: 42px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+.landing {
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    width: 50%;
+    height: 75vh;
+    margin-right: 40px;
+}
+
+.my-body h2 {
+    color: #00b6a3;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.cam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-cam {
+    /* background-repeat: no-repeat;
+    background-size: cover; 
+    width: 400px;
+    height: 60vh;
+    
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    left: 50%;
+    margin: 0 auto; */
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 60vh;
+    margin: 20px;
+    /* float: left; */
+}
+
+.tableimg {
+    width: 400px;
+    height: 60vh;
+    margin: 20px;
+}
+
+.tableimg:hover {
+    /* box-shadow: 5px 10px 10px rgba(90, 24, 90, 0.5); */
+}
+
+.table-btn {
+    text-align: center;
+}
+
+.counters {
+    width: 40px;
+}
+
+.off {
+    color: orange;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgba(15, 14, 14, 0.822);
+}
+
+h2 .sales {
+    margin-top: 80px;
+    padding: 50px;
+}
+
+.everywhere {
+    color: #ff5b45;
+}
+
+.every {
+    color: #ff5b45;
+}
+
+a .first-cam:hover {
+    opacity: 0.5;
+}
+
+footer {
+    background-color: #00b6a3;
+}
+
+footer ul {
+    /* text-align: center; */
+    display: float;
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+}
+
+footer li {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    margin: 16px 40px;
+    /* text-align: center; */
+}
+
+footer li a {
+    color: white;
+    text-decoration: none;
+}
+
+.see-more {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.see-more a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #00b6a3;
+    /* background: rgb(90, 24, 90); */
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.see-more a:hover {
+    background-color: #008978;
+    transition: .5s;
+}
+
+.home-page {
+    overflow-x: hidden;
+}
+
+.product-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cam {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 60vh;
+    margin: 20px;
+}
+
+.product-image a:hover {
+    box-shadow: 5px 10px 10px rgba(90, 24, 90, 0.5);
+}

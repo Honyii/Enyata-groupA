@@ -1,0 +1,61 @@
+body {
+    background: url(camera-pose-01.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.container {
+    height: 300px;
+    background-color: black;
+    opacity: .5;
+    display: inline;;
+}
+#about-us {
+    width: 900px;
+    margin: 140px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #ffde91;
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+}
+
+.plus {
+    height: 20px;
+    color: white;
+    margin-bottom: -6px
+}
+
+p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.3;
+    width: 100%;
+    font-size: 15px;
+}
+
+button {
+    position: absolute;
+    margin: 12px 373px;
+    padding: 10px 17px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+button a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px
+}
+button:hover {
+    border: 2px solid #ff5b45;
+    cursor: pointer;
+    transition: .5s;
+}

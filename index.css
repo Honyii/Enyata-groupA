@@ -1,0 +1,397 @@
+
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.landing-page{
+    background-image: url("images/front.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.9;
+    position: absolute;
+}
+
+.my-form{
+    position: relative;
+    background: #00b6a3;
+    width: 340px;
+    height: 462px;
+    opacity: .9;
+    z-index: 1;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1%;
+}
+
+.my-form2 {
+    position: relative;
+    background: #00b6a3;
+    width: 340px;
+    height: 610px;
+    opacity: .9;
+    z-index: 1;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1%;
+}
+
+.my-form h1{
+    color: #ffde91;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Noto Serif', serif;
+}
+
+#username{
+    width: 80%;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border:.5px solid #cccccc;
+    margin-top: 8px;
+}
+
+#password{
+    width: 80%;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border:.5px solid #cccccc;
+    margin-top: 8px;
+}
+
+
+
+#name, #pass, #email, #user {
+    width: 80%;
+    height: 45px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border:.5px solid #cccccc;
+    margin-bottom: -30px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.box h1 {
+    color: #ffde91;
+    font-family: 'Noto Serif', serif;
+}
+.box {
+    margin-top: 20px;
+}
+
+#username::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+#password::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+
+#tag1, #tag2,#tag3, #tag4, #tag5, #tag6 {
+    color: white;
+    margin: 0;
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+
+
+button{
+    width: 85%;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff7f6e;
+    color: #ffde91;
+    border:.5px solid #cccccc;
+    
+}
+button:hover {
+    background-color: #ff5b45;
+    cursor: pointer;
+    transition: .5s;
+}
+#button2{
+    width: 85%;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    background: #ff7f6e;
+    border: none;
+    border:.5px solid #cccccc;
+    margin-top: 10px;
+    
+}
+#button2:hover{
+    background-color: #ff5b45;
+    cursor: pointer;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.form-p{
+    font-size: 14px;
+    color: white;
+}
+.form-p a{
+    font-size: 14px;
+    color: #ffde91;
+    text-decoration: none;
+    opacity: 1;
+}
+
+/* .home{
+    background: rgb(133, 48, 48);
+} */
+.my-nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 0;
+    height: 50px;
+    margin: 0;
+    width: 100%;
+    background-color: #00b6a3;
+    z-index: 1;
+}
+
+.left {
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    margin: 15px auto auto 60px;
+}
+
+li a {
+    text-decoration: none;
+    padding: 20px; 
+    margin-right: 80px;
+    color: #fff;
+    
+}
+
+li a:hover {
+    color: #ffde91;
+    
+}
+
+.home-edit {
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    
+    border-radius: 5px;
+}
+
+.home-edit:hover{
+    transition: .7s;
+    color: #ffde91;
+    border: #ffde91;
+    border: 1px solid #ffde91;
+}
+
+
+.man-pic{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.girl{
+    display: float;
+}
+.girl-part{
+    float: left;
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 80px;
+    font-size: 18px;
+    
+}
+
+.landing{
+    background-repeat: no-repeat;
+    background-size: cover; 
+    float: right;
+    width: 50%;
+    height: 75vh;
+    margin-right: 40px;
+
+
+}
+.girl{
+    display: float;
+}
+
+.my-body h2{
+    color: #00b6a3;
+    
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.cam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+  .first-cam{
+  
+    /* background-repeat: no-repeat;
+    background-size: cover; 
+    width: 400px;
+    height: 60vh;
+    
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    left: 50%;
+    margin: 0 auto; */
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 60vh;
+    margin: 20px;
+/* float: left; */  
+}
+
+.off{
+  color: orange;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgba(15, 14, 14, 0.822);
+}
+ h2 .sales{
+     margin-top: 80px;
+     padding: 50px;
+     
+ }
+ 
+ a .first-cam:hover{
+     
+    opacity: 0.5;
+ }
+
+ footer{
+     background-color: #00b6a3;
+     height: 90px;
+ }
+ footer ul{
+    /* text-align: center; */
+    display: float;
+    text-align: center;
+    justify-content: center;
+ }
+ footer li{
+     list-style: none;
+     
+     position: relative;
+     display: inline-block;
+     margin:  0 0px;
+     /* text-align: center; */
+ }
+
+ footer li a{
+     color: white;
+     text-decoration: none;
+ }
+
+.foot {
+    float: left;
+    margin: 0;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.foot li{
+    padding: 0;
+}
+
+.foot li a{
+    padding: 0;
+}
+
+ .see-more{
+     text-align: center;
+     font-size: 30px; 
+ }
+ .see-more a{
+     text-decoration: none;
+     color: #fff;
+     background: #00b6a3;
+     border-radius: 5px;
+     padding: 5px 20px;
+ }
+
+.see-more a:hover {
+    background-color: #008978;
+    transition: .5s;
+}
+
+ .home-page{
+    overflow-x: hidden;
+ }
+
+.product-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cam{
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    height: 60vh;
+    margin: 20px;
+}
+
+.product-image a:hover{
+    box-shadow: 5px 10px 10px rgb(90, 24, 90);
+}
+
+/*contact us section*/
+
+
+
+
+
+

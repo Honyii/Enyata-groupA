@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>Team Atlas - Home</title>
+    <link rel="stylesheet" href="./home.css">
+</head>
+
+<body>
+    <div class="home-page">
+
+        <div class="navbar">
+            <a id="cartmenu" href="#">Cart<span id="cartitems"></span></a>
+            <a href="index.html">SignOut</a>
+            <a href="contact-us.html">Contact Us</a>
+            <a href="about-us.html">About Us</a>
+            <a href="#productStart">Products</a>
+            <a href="home.html">Home</a>
+        </div>
+
+        <div class="my-body">
+            <div class="man-pic">
+                <div>
+                    <h2 class="welcome">Welcome to Our Online Camera Retail Store</h2>
+                    <h3 class="welcome1">We deliver the best Cameras for your proffesional experience</h3>
+                </div>
+            </div>
+            <h2>Digital Cameras & Camcorders</h2><br><br>
+
+            <div class="girl">
+                <p class="girl-part">
+                    Outstanding ratings across review sites. <br> Shop with confidence knowing that your data and information is safe. We absolutely do not share nor sell your information with anyone. <br> Easily complete your purchase with the payment
+                    method that is the best for you. <br>
+
+                </p>
+                <img class="landing" src="images/landing.jpg">
+            </div>
+
+
+            <div id="productStart" style="clear:right; ">
+                <br><br>
+                <h2 class="sales">Buy up to 3 items and get <span class="off"> 50% OFF</span></h2>
+            </div>
+
+            <div class="product-table">
+                <table>
+                    <tr>
+                        <td>
+                            <div>
+                                <img class="tableimg" src="images/supercam1.jpg">
+                                <p class="desc">Canon EOS Rebel SL3 DSLR Camera with 18-55mm Lens (Black)</p>
+                            </div>
+                            <div class="table-btn">
+                                <button class="addreview" id="addR1" onclick="addReviewClick()">Add Review</button>
+                                <button class="order">Add to Cart</button>
+                                <input class="counters" onchange="trackCart(event)" type="number">
+                            </div>
+
+                        </td>
+                        <td>
+                            <div>
+                                <img class="tableimg" src="images/supercam2.jpg">
+                                <p class="desc">Canon EF-S 55-250mm f/4-5.6 IS II Zoom Lens (Black)</p>
+                            </div>
+                            <div class="table-btn">
+                                <button class="addreview" id="addR2" onclick="addReviewClick(event)">Add Review</button>
+                                <button class="order">Add to Cart</button>
+                                <input class="counters" onchange="trackCart(event)" type="number">
+
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="tableimg" src="images/supercam3.jpg">
+                                <p class="desc">Panasonic Lumix GX85 Mirrorless Camera with 12-32mm Lens (Black)</p>
+                            </div>
+                            <div class="table-btn">
+                                <button class="addreview" id="addR3" onclick="addReviewClick(event)">Add Review</button>
+                                <button class="order">Add to Cart</button> <input class="counters" onchange="trackCart(event)" type="number">
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <div>
+                                <img class="tableimg" src="images/supercam9.jpg">
+                                <p class="desc">Canon EOS R Mirrorless Camera RF 24–105mm F4 L IS USM Kit</p>
+                            </div>
+                            <div class="table-btn">
+                                <button class="addreview" id="addR4" onclick="addReviewClick(event)">Add Review</button>
+                                <button class="order">Add to Cart</button> <input class="counters" onchange="trackCart(event)" type="number">
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="tableimg" src="images/supercam10.jpg">
+                                <p class="desc">Canon Canon EOS RP Mirrorless Camera RF 24-240 IS USM Lens Kit</p>
+                            </div>
+                            <div class="table-btn">
+                                <button class="addreview" id="addR5" onclick="addReviewClick(event)">Add Review</button>
+                                <button class="order">Add to Cart</button> <input class="counters" onchange="trackCart(event)" type="number">
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img class="tableimg" src="images/supercam8.jpg">
+                                <p class="desc">Canon PowerShot SX620 HS 20.2MP Digital Camera (Black)</p>
+                            </div>
+                            <div class="table-btn">
+                                <button class="addreview" id="addR6" onclick="addReviewClick(event)">Add Review</button>
+                                <button class="order">Add to Cart</button> <input class="counters" onchange="trackCart(event)" type="number">
+
+                            </div>
+                        </td>
+
+                    </tr>
+
+                </table>
+                <!-- The Modals -->
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content" style="width: 30%; padding: 30px; text-align: center;">
+                        <span onclick="closeModal()" class="close">&times;</span>
+                        <div id="reviewform">
+                            <p>Please submit your review about this product</p>
+                            <input type="text" placeholder="Enter your name" style="width: 250px; margin: 20px auto;"><br>
+                            <textarea name="" id="" cols="30" rows="1" placeholder="Type your review"></textarea>
+                            <button onclick="submitmsg()" style="display: block; margin: 20px auto;">Submit</button>
+                        </div>
+                        <p id="submitmsg">Thnak you for your review!</p>
+                    </div>
+                </div>
+
+                <div id="myModal2" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content" style="width: 30%; padding: 30px; text-align: center;">
+                        <span onclick="closeModal()" class="close">&times;</span>
+                        <div id="productorder">
+                            <img id="orderitem" src="" alt="product" height="200px" width="200px">
+                            <p>You have added <span id="orderunit"> </span> units to cart</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="myModal3" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content" style="width: 20%; padding: 10px; text-align: center; margin-left: 77%; margin-top: -2%;">
+                        <span onclick="closeModal()" class="close">&times;</span>
+                        <div>
+                            <p id="checkout">You have <span id="allcart"> </span> items in cart</p>
+                            <p id="proceed">kindly proceed to checkout</p>
+                            <input id="checkoutbtn" type="button" value="Checkout">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <h3 class="see-more"></h3>
+
+            <footer>
+                <div class="footer">
+
+                    <h5 style="text-align: center; padding-top: 60px;">@Team Atlas - Enyata Bootcamp 3.0</h5>
+
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./modal.js"></script>
+
+</body>
+
+</html>

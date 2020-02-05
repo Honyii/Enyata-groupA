@@ -1,0 +1,132 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(woman.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    padding: 50px;
+    margin: 140px auto;
+}
+#name, #email, #message {
+    border: none;
+    width: 100%;
+    border-color: transparent;
+    background-color: transparent;
+    border-bottom: .6px solid white;
+    margin-bottom: 33px;
+}
+
+.container h1 {
+    font-family: 'Noto Serif', serif;
+    color: #ffde91;
+}
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 0;
+    height: 50px;
+    width: 100%;
+}
+
+.left {
+    list-style: none;
+    float: right;
+}
+.left ul {
+    list-style: none;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.left ul li {
+    display: inline-block;
+}
+.btn1 a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 12px 40px 12px 40px;
+    margin-right: 19px;
+}
+.btn3 a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 12px 40px 12px 40px;
+    margin-right: 15px;
+}
+ 
+.btn2 a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 12px 30px 12px 30px;
+    margin-right: 12px;
+}
+
+.btn1 a:hover, .btn2 a:hover, .btn3 a:hover {
+    background-color: #ff5b45;
+    transition: .5s;
+}
+
+.btn1 a:active, .btn2 a:active, .btn3 a:active {
+    background-color: orange;
+    transition: .5s;
+}
+
+button {
+    background-color:  #ff7f6e;
+    padding: 14px 60px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 140px;
+}
+button:hover {
+    background-color: #ff5b45;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:active {
+    background-color: orange;
+    cursor: pointer;
+    transition: .5s;
+}
+
+input::placeholder {
+    color: #fff;
+    opacity: .5;
+    font-family: 'Montserrat', sans-serif;
+}
